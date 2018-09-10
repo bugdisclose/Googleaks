@@ -1,2 +1,2 @@
 # Googleaks
-Googleaks is a tool which test web application for the confidential information leakage by the google dorking
+Googleaks is a tool which tests web applications for the confidential information leakage by using the advanced google dorks.
