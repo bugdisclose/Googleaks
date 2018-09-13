@@ -9,4 +9,4 @@ Googleaks is a tool which tests web applications for the confidential informatio
 * 0 False Positive
 * Customizable
 
-#### Stay with me, more options and functions will be added soon...take care
+#### Download, Enter domain and get the result
