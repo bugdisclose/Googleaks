@@ -11,4 +11,4 @@ Googleaks is a tool which tests web applications for the confidential informatio
 
 #### Download, Enter domain and get the result
 
-##Live App : https://developersatyendra.github.io/Googleaks/
+##Live App : https://bugdisclose.github.io/Googleaks/
