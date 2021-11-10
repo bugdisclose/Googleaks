@@ -1,5 +1,5 @@
 # Googleaks
-Googleaks is a tool which tests web applications for the confidential information leakage by using the advanced google dorks.
+Googleaks is a tool which let you uncover the sensitive information about an organization by providing their domain as input. It queries the information in google by using some advanced google dorks.
 
 ![Google Dork](https://pbs.twimg.com/media/DT3TvbaVMAEAjyO.jpg "Googleaks")
 
@@ -9,6 +9,6 @@ Googleaks is a tool which tests web applications for the confidential informatio
 * 0 False Positive
 * Customizable
 
-#### Download, Enter domain and get the result
+### Enter domain and get the result
 
-##Live App : https://bugdisclose.github.io/Googleaks/
+## Live App : https://bugdisclose.github.io/Googleaks/
