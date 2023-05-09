@@ -32,6 +32,7 @@
         <li><p><a href="javascript:google_hacking_tests(8);" class="easyui-linkbutton" style="width:200px">Publicly Exposed Documents</a></p></li>
         <li><p><a href="javascript:google_hacking_tests(9);" class="easyui-linkbutton" style="width:200px">phpinfo()</a></p></li>
         <li><p><a href="javascript:google_hacking_tests(10);" class="easyui-linkbutton" style="width:200px">Exposed CGI Files</a></p></li>
+        <li><p><a href="javascript:google_hacking_tests(11);" class="easyui-linkbutton" style="width:200px">Open Redirect</a></p></li>
         </ul>
        </div>
    </div>
@@ -81,6 +82,9 @@
                break;
            case 10:
                url += '+ext:cgi';
+               break;
+           case 11:
+               url += '+inurl:redir+|+inurl:redirect_uri+|+inurl:redirect_url+|+inurl:return_uri+|+inurl:return_url+|+inurl:return_to+|+inurl:href+|+inurl:host+|+inurl:next+|+inurl:url+|+inurl:uri+|+inurl:origin+|+inurl:referrer+|+inurl:callback_url+|+inurl:redirect+|+inurl:img_url+|+inurl:img_uri+|+inurl:returnTo+|+inurl:checkout_url+|+inurl:continue+|+inurl:return_path+|+inurl:destination+|+inurl:rurl+|+inurl:image_url+|+inurl:newurl'
                break;
        }
        window.open(url,'Google Hacking Test2','scrollbars=yes,menubar=no,height=600,width=800,resizable=yes,toolbar=yes,menubar=no,location=no,status=no');
